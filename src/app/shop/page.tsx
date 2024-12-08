@@ -137,12 +137,10 @@ export default function ShopHero(){
         <Image src={ShopImage} alt="Picture of the author" />
             <h3 className="font-bold text-[1.5rem]">Shop</h3>
             <h5 className="shopPara"><span className=" font-bold">Home</span> Shop</h5>
+        </div>
+        <div className="w-[100%] h-[4rem] bg-[#F9F1E7]" >
 
         </div>
-            
-        <div  className="product">
-            <h2 className="text-center p-2 font-bold text-[3rem]">Our Product</h2>
-            </div>
             <div className="cardsContainer">
             {data.map((card, index) => (
 
