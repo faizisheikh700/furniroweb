@@ -1,4 +1,4 @@
-// import Image from "next/image";
+import Image from "next/image";
 // import Bedroom from "../public/bedroom.png"
 export default function Products(){
 
@@ -15,14 +15,14 @@ export default function Products(){
           name: 'Syltherine',
           price: "Rp 2.500.000",
           age: 30,
-          image: "Abc",
+          image: "/Hero.png",
           description: 'Stylish cafe chair',
         },
         {
           name: 'Jane Smith',
           price: "Rp 2.500.000",
           age: 25,
-          image: 'https://via.placeholder.com/100',
+          image: "/images.png",
           description: 'A creative designer who loves creating stunning visuals.',
         },
         {
@@ -76,7 +76,7 @@ export default function Products(){
             </div>
             <div className="cardsContainer">
             {data.map((card, index) => (
-
+              
             <div className="card" key={index} style={{ width: "15rem" }}>
                 <img
                   src={card.image}
@@ -96,8 +96,10 @@ export default function Products(){
             </div>
                     ))}
 
-                    <button className="productBtn text-[#B88E2F] p-2 border-2 border-[#B88E2F]">Show More</button>
 
+        </div>
+        <div className="flex items-center justify-center mb-12">
+       <button className="productBtn text-[#B88E2F] p-2 border-2 border-[#B88E2F]">Show More</button>
         </div>
         </>
     )
