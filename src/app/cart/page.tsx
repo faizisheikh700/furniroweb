@@ -37,7 +37,7 @@ export default function Cart() {
             <p>Rs. 250,000.00</p>
 
 
-        <div className="cartTotal  bg-[#F9F1E7] text-center w-[20rem] h-[15rem] pt-[4rem] ">
+        <div className="crtTotal  bg-[#F9F1E7] text-center w-[20rem] h-[15rem] pt-[4rem] ">
           <h2 className="font-bold text-[1.5rem]">Cart Totals</h2>
           <p><span className="font-bold">Subtotal </span>  Rs. 250,000.00</p>
           <p><span className="font-bold">Total</span> Rs. 250,000.00</p>
