@@ -2,6 +2,7 @@ import Image from "next/image"
 import ShopImage from "@/Pictures/shophero.png"
 import { IoIosArrowForward } from "react-icons/io";
 import Products from "@/components/Products";
+import BlowHero from "@/components/ShopBlowHero";
 
 
 export default function ShopHero(){
@@ -138,9 +139,7 @@ export default function ShopHero(){
             <h3 className="font-bold text-[1.5rem]">Shop</h3>
             <h5 className="shopPara"><span className=" font-bold">Home</span> Shop</h5>
         </div>
-        <div className="w-[100%] h-[4rem] bg-[#F9F1E7]" >
-
-        </div>
+                <BlowHero/>
             <div className="cardsContainer">
             {data.map((card, index) => (
 
