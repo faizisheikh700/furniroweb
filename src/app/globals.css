@@ -2,37 +2,35 @@
 @tailwind components;
 @tailwind utilities;
 
-   /* --------------------- NAVBAR ----------------------------- */
-.navbar{
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 2rem 1rem 2rem ;
-
+/* --------------------- NAVBAR ----------------------------- */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem 1rem 2rem;
 }
 
-.navbar .head{
+.navbar .head {
   display: flex;
   /* justify-content: space-between;
   align-items: center; */
   gap: 2rem;
 }
 
-.navbar .icons{
+.navbar .icons {
   display: flex;
   /* justify-content: space-between;
   align-items: center; */
   gap: 2rem;
-
 }
 
- /* ---------------------- HERO SECTION ----------------------------------- */
-.heroImage{
+/* ---------------------- HERO SECTION ----------------------------------- */
+.heroImage {
   /* width: 50rem;
   height: 63rem; */
 }
 
-.heroText{
+.heroText {
   width: 34rem;
   /* height: 16rem; */
   position: absolute;
@@ -43,22 +41,86 @@
   line-height: 2rem;
 }
 
-.heroText h6{
+.heroText h6 {
   font-weight: bold;
 }
 
-.heroText h3{
+.heroText h3 {
   font-size: 2.5rem;
   font-weight: bolder;
-  color: #B88E2F;
+  color: #b88e2f;
 }
 
 /* .heroText p{
   line-height: none;
 } */
 
-.heroText .buyBtn{
-  background-color: #B88E2F;
+.heroText .buyBtn {
+  background-color: #b88e2f;
   padding: 0.5rem 3rem 0.5rem 3rem;
   color: white;
+}
+
+/* ---------------------------- SUB TEXT ---------------------------- */
+.subText {
+  text-align: center;
+}
+.subText h3 {
+  color: #292826;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.imgArea{ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+
+}
+.imgArea h6{
+  text-align: center;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+  display: flex;
+  justify-content: space-around;
+  /* align-items: center; */
+  gap: 1rem;
+}
+
+.footer input{
+  /* border: none; */
+  outline: none;
+
+}
+
+
+footer hr {
+  margin: auto;
+  margin-top: 15px;
+  width: 1000px;
+}
+
+footer .para p{
+  font-weight: 400;
+  position: absolute;
+  left: 13%;
+  padding: 2rem 0rem;
 }
