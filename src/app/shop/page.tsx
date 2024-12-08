@@ -1,6 +1,10 @@
-// import Image from "next/image";
-// import Bedroom from "../public/bedroom.png"
-export default function Products(){
+import Image from "next/image"
+import ShopImage from "@/Pictures/shophero.png"
+import { IoIosArrowForward } from "react-icons/io";
+import Products from "@/components/Products";
+
+
+export default function ShopHero(){
 
     interface Card{
         name: string,
@@ -67,10 +71,75 @@ export default function Products(){
           image: 'https://via.placeholder.com/100',
           description: 'A software engineer specializing in backend systems.',
         },
+        {
+          name: 'Syltherine',
+          price: "Rp 2.500.000",
+          age: 30,
+          image: "Abc",
+          description: 'Stylish cafe chair',
+        },
+        {
+          name: 'Jane Smith',
+          price: "Rp 2.500.000",
+          age: 25,
+          image: 'https://via.placeholder.com/100',
+          description: 'A creative designer who loves creating stunning visuals.',
+        },
+        {
+          name: 'Sam Wilson',
+          price: "Rp 2.500.000",
+          age: 28,
+          image: 'https://via.placeholder.com/100',
+          description: 'A software engineer specializing in backend systems.',
+        },
+        {
+          name: 'Sam Wilson',
+          price: "Rp 2.500.000",
+          age: 28,
+          image: 'https://via.placeholder.com/100',
+          description: 'A software engineer specializing in backend systems.',
+        },
+        {
+          name: 'Sam Wilson',
+          price: "Rp 2.500.000",
+          age: 28,
+          image: 'https://via.placeholder.com/100',
+          description: 'A software engineer specializing in backend systems.',
+        },
+        {
+          name: 'Sam Wilson',
+          price: "Rp 2.500.000",
+          age: 28,
+          image: 'https://via.placeholder.com/100',
+          description: 'A software engineer specializing in backend systems.',
+        },
+        {
+          name: 'Sam Wilson',
+          price: "Rp 2.500.000",
+          age: 28,
+          image: 'https://via.placeholder.com/100',
+          description: 'A software engineer specializing in backend systems.',
+        },
+        {
+          name: 'Sam Wilson',
+          price: "Rp 2.500.000",
+          age: 28,
+          image: 'https://via.placeholder.com/100',
+          description: 'A software engineer specializing in backend systems.',
+        },
       ];
-    
-    return (
+
+
+
+    return(
         <>
+        <div className="shopsect">
+        <Image src={ShopImage} alt="Picture of the author" />
+            <h3 className="font-bold text-[1.5rem]">Shop</h3>
+            <h5 className="shopPara"><span className=" font-bold">Home</span> Shop</h5>
+
+        </div>
+            
         <div  className="product">
             <h2 className="text-center p-2 font-bold text-[3rem]">Our Product</h2>
             </div>
@@ -95,10 +164,8 @@ export default function Products(){
             </div>
             </div>
                     ))}
+            </div>
 
-                    <button className="productBtn text-[#B88E2F] p-2 border-2 border-[#B88E2F]">Show More</button>
-
-        </div>
         </>
     )
 }

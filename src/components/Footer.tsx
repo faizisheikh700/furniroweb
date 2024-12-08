@@ -5,7 +5,7 @@ export default function Footer(){
 
         <div className="footer p-5 border-t-2 leading-10  border-gray-300">
             <div className="w-[14rem]  ">
-                <h2 clas>Funiro.</h2>
+                <h2 className="font-bold text-[2rem]">Funiro.</h2>
                 <p className="leading-none">400 University Drive Suite 200 Coral Gables,
                 FL 33134 USA</p>
             </div>
@@ -34,7 +34,7 @@ export default function Footer(){
             <div>
                 <h4>Newsletter</h4>
             <input type="text" placeholder="Your Email" />
-            <button type="submit">SUBSCRIBE</button>
+            <button type="submit" className="font-bold">SUBSCRIBE</button>
             </div>
             
         </div>
