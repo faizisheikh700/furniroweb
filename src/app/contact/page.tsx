@@ -88,7 +88,7 @@ export default function () {
         </div>
         
       </div>
-      <div className="flex justify-evenly items-center p-2 w-[100%] h-[8rem] bg-[#F9F1E7]">
+      <div className=" mt-5 mb-5 flex justify-evenly items-center p-2 w-[100%] h-[8rem] bg-[#F9F1E7]">
         
         < div className="">
     
